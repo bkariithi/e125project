@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+.site-header {
+    background: #1f1f1f;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.navbar .logo {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    filter: brightness(0.7);
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro, .materials, .privacy, .community, .case-studies {
+    padding: 2em;
+}
+
+h2 {
+    margin-bottom: 0.5em;
+    color: #222;
+}
+
+.material-grid {
+    display: flex;
+    gap: 2em;
+}
+
+.material-card {
+    background: #f9f9f9;
+    padding: 1em;
+    flex: 1;
+}
+
+.material-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.community-img img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.blog-post {
+    background: #f2f2f2;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+.site-footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
